@@ -2,7 +2,7 @@
 
 [Download](https://github.com/rcwarner93/ProfileSite/blob/main/cv.pdf) the PDF version from this repo.
 
-Practicing Web Development using React/HTML and Golang
+Practicing Web Development using React/JS/HTML and Golang
 
 ## Current Task List
 - [] Host on CloudFlare/Github Pages/Lightsail[^1] [^2] [^3]
@@ -18,4 +18,4 @@ Practicing Web Development using React/HTML and Golang
 [Markdown File Structuring](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 
-https://www.youtube.com/watch?v=MTc2CTYoszY
+[Cloudflare Website  Hosting](https://www.youtube.com/watch?v=MTc2CTYoszY)
