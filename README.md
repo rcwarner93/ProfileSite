@@ -1,9 +1,9 @@
 # My CV and Profile Site
-[//]: [![Build Status](https://github.com/umputun/remark42/workflows/build/badge.svg)](https://github.com/umputun/remark42/actions) [![Image Size](https://img.shields.io/docker/image-size/umputun/remark42/master)](https://hub.docker.com/r/umputun/remark42) [![Go Report Card](https://goreportcard.com/badge/github.com/umputun/remark42)](https://goreportcard.com/report/github.com/umputun/remark42) [![Coverage Status](https://coveralls.io/repos/github/umputun/remark42/badge.svg?branch=master)](https://coveralls.io/github/umputun/remark42?branch=master) [![codecov](https://codecov.io/gh/umputun/remark42/branch/master/graph/badge.svg)](https://app.codecov.io/gh/umputun/remark42)
+[![Build Status](https://github.com/rcwarner93/ProfileSite/actions/workflows/static.yml/badge.svg)](https://github.com/rcwarner93/ProfileSite/actions)
 
 [Download](https://github.com/rcwarner93/ProfileSite/blob/main/cv.pdf) the PDF version from this repo.
 
-Practicing Web Development using React/JS/HTML and Golang
+Practicing Web Development using React/JS/HTML/CSS
 
 ## Current Task List
 - [] Format CV to HTML
