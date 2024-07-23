@@ -1,5 +1,17 @@
-.ImageBorder
-{
-    border-width: 1px;
+*{
+
+}
+
+hmtl{
+
+}
+
+body{
+
+}
+
+
+.ImageBorder {
+    border-width: 5px;
     border-color: Black;
 }
