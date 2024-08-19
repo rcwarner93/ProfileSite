@@ -2,26 +2,99 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="cv.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Page Title</title>
     
 </head>
 <body>
-    <div class="full"></div>
-        <div class="left"></div>
+    <div class="leftPanel">
             <div class="ImageBorder">
-                <img src= "/images/Headshot.jpg"
-                    alt="Headshot"
-                    style="width:100px;
-                           height:100px;"
-                    >
+                <img src= "/images/Headshot.jpg" 
+                alt="Headshot">
             </div>
-    <h1>Robert Warner</h1>
-    <p>919-609-6526 | robwarner93@gmail.com | <a href="https://www.linkedin.com/in/robwarner93">LinkedIn</a></p>
-    <h2>About Me</h2>
-    <h2>Technical Skills</h1>
-    <p>This is a paragraph.</p>
+        <h1>Robert Warner</h1>
+        <div class="item bottomLineSeparator">
+            <h2>Contact Info</h2>
+            <div class="smallText">
+              <p>
+                <i class="fa fa-phone contactIcon" aria-hidden="true"></i>
+                (919) 609-6526
+              </p>
+              <p>
+                <i class="fa fa-envelope contactIcon" aria-hidden="true"></i>
+                <a href="robwarner93@gmail.com">
+                    robwarner93@gmail.com 
+                </a>
+              </p>
+              <p>
+                <i class="fa fa-map-marker contactIcon" aria-hidden="true"></i>
+                Cary, North Carolina
+              </p>
+              <p>
+                <i class="fa fa-linkedin-square contactIcon" aria-hidden="true"></i>
+                <a href="https://www.linkedin.com/in/robwarner93">in/robwarner93</a>
+              </p>
+              <p class="lastParagrafNoMarginBottom">
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <a href="https://github.com/rcwarner93">
+                  rcwarner93
+                </a>
+              </p>
+            </div>
+          </div>
+     
+
+    </div>
+    
+    <div class="topPanel">
+        <h2>About Me</h2>
+        <p>This is a blurb about me!</p>
+        <h2>Technical Skills</h2>
+        <p><b>Languages:</b> Golang, Python, SQL, HTML/CSS, Java, C</p>
+        <p><b>Cloud/Backend Technologies:</b> AWS, Docker, Terraform, YAML, RESTful APIs, PostgreSQL, MySQL, JSON</p>
+        <p><b>Tools:</b> VSCode, Jira, Jenkins, Git/Github/Gitlab, Kali/Linux, Swagger, Postman, Postico, Tines, Confluence, Qualys</p>
+    </div>
+    <div class="rightPanel">
     <h2>Experience</h2>
-    <h2>Education</h2>
+    <h3>Cisco Systems | Security Software Engineer May’23 – October `23</h3>
+    <ul>
+        <li>1+ years of experience working in an Agile environment on the Security Engineering team using Jira and Phab ticket tracking.</li>
+        <li>Operated as SME on (Python) legacy tool’s automation of large scale cloud and on-prem asset vulnerability management ticketing for over 60+ engineering teams within various business units and product offerings.</li>
+        <li>Designed and developed custom components for an asset management solution using Golang to deliver MVP features.</li>
+        <li>Worked on a secure CI/CD pipeline that used Git tag based releases in GitHub Actions to production environments deployed via Terraform in AWS Cloud.</li>
+        <li>Introduced Swagger API documentation and presented to stake holders on interactive endpoints for better user experience.</li>
+        <li>Wrote SQL scripts and migrations to load/process data and implement feature requests in PostgreSQL.</li>
+        <li>Tested and debugged endpoint functionality and runtimes using token-based authentication cURL requests in Postman. </li>
+        <li>Refactored code, wrote unit tests and back end functionality for feature requests, while handling any emergency troubleshooting for bugs in production logging and alerting infrastructure (AWS Cloudwatch/Docker Service Logs).</li> 
+        <li>Documented developer policies for three services, providing centralized knowledge transfer resources within Confluence.</li>
+        <li>Collaborated effectively with cross-functional teams to evaluate client requirements and develop Product Requirements Documents.</li>
+    </ul>
+    <p><b>Technology Stack:</b> GoLang, Python, HTML/CSS, Linux, Swagger, Jira, GitHub CI/CD, VirtualBox, Jenkins, Github Actions, YAML, REST API, Docker, Terraform, AWS (RDS with PostgreSQL, EC2, Cloudwatch, SNS)</p>
+    <h3>Cisco - Duo Security | Security Software Engineer Intern     May ’22 – May ’23</h3>
+    <ul>
+        <li>Developed security software tools for asset vulnerability management from Qualys input scans of over 80,000 hosts to ensure FedRAMP compliance and derive Plan Of Action & Milestones from consolidated CISA known vulnerabilities.</li>
+        <li>Integrated and tested RESTful APIs that manipulate large scale interdependent databases using technologies like GoLang, Docker, AWS, PostgreSQL and JIRA.</li>
+        <li>Presented project to 100+ faculty members on automated processes between on-premise and SaaS services.</li>
+    </ul>
+    <h3>DICED | Senior Operations Director September ’17 –  ’19 </h3>
+    <ul>
+        <li>Guided hiring, management, and scheduling of over 70+ employees across all 3 business locations to improve efficiency.</li>
+        <li>Monitored daily sales and implemented systems that raised profit margins by 5% in a business with over $2 million GAR.</li>
+        <li>Mentored new and old team members through both weekly and monthly executive briefs, as well as one on one discussions to thoroughly engage staff and better understand their goals.</li>
+    </ul>
+    </div>
+
+    <div class="bottomPanel">
+        <h2>Education</h2>
+        <p><b>North Carolina State University, Raleigh, NC Fall ’19 – Fall ‘23</b></p>
+        <p>Bachelor of Science in Industrial Engineering | Minor Computer Programming                      GPA: 3.8 </p>
+        <p><b>Honors:</b> NHS Member, Dean’s List</p>
+        <h2><b>Projects</b></h2>
+        <p><b><a href="https://github.com/rcwarner93/Fall-Hazard-Identification">Drone Swarming (AI Matlab):</a></b></p>
+        <p>Trained machine learning algorithms for computer visioning used by NIOSH in construction site drone safety monitoring.</p>
+        <p><b>Compression Manager (Java):</b></p>
+        <p></p>Implemented compression and decompression algorithms for text files with a variety of data structures.</p>
+    </div>
 
 </body>
 </html>

@@ -1,17 +1,80 @@
-*{
+img {
 
+    width: 4cm;
+    height: 4cm;
+    margin-bottom: 0.1cm;
+    border-radius: 50%;
+    border: 0.15cm solid white;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
-hmtl{
-
+h1 { /*Name */
+    font-family: 'Julius Sans One', sans-serif;
+}
+  
+h2 { /* About Me, Technical Skills, Experience, Education */
+    font-family: 'Archivo Narrow', sans-serif;
+}
+  
+h3 { /* Job Titles */
+    font-family: 'Open Sans', sans-serif;
 }
 
-body{
-
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
 }
 
-
-.ImageBorder {
-    border-width: 5px;
-    border-color: Black;
+.topPanel {
+    display: flex;
+    flex-direction: row;
+    width: 73%;
 }
+
+.leftPanel {
+    width: 27%;
+    background-color: #484444;
+    padding: 0.7cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftPanel .smallText, 
+.leftPanel .smallText, 
+.leftPanel .smallText span, 
+.leftPanel .smallText p, 
+.smallText a {
+  font-size: 0.45cm;
+}
+.smallText, 
+.smallText span, 
+.smallText p, 
+.smallText a {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: justify;
+}
+.contactIcon {
+  width: 0.5cm;
+  text-align: center;
+}
+.leftPanel, 
+.leftPanel a {
+  color: #bebebe;
+  text-decoration: none;
+}
+
+.rightPanel {
+    width: 73%;
+    padding: 0.7cm;
+}
+.topPanel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+  
